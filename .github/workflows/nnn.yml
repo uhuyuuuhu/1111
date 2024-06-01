@@ -1,5 +1,5 @@
 name: 0127sch
-  on: [push, workflow_dispatch]
+on: [push, workflow_dispatch]
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
