@@ -1,7 +1,7 @@
-name: sixno
+name: sixno28
 on:
   schedule:
-    - cron: '5 */2 * * *' # 
+    - cron: '20 */2 * * *' # 
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
@@ -13,7 +13,7 @@ jobs:
           files=("230117" "230118" "230119" "230120" "230121")
           for file in "${files[@]}"; do
           for i in {1..1}; do
-          wget -nH -m --ftp-user=gvvbbuiui --ftp-password=uyyyU258458 "ftp://ftp-gvvbbuiui.alwaysdata.net/www/$file/*"
+          wget -nH -m --ftp-user=tttygvg --ftp-password=gggvvT25568*+9 "ftp://ftp-tttygvg.alwaysdata.net/www/$file/*"
           sleep 5
           done
           cp www/$file/* ./
